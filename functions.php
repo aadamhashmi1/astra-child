@@ -18,3 +18,4 @@ function astra_child_register_sidebar() {
     ]);
 }
 add_action('widgets_init', 'astra_child_register_sidebar');
+

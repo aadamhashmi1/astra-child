@@ -22,10 +22,11 @@ get_header(); ?>
         </div>
 
         <?php if (is_active_sidebar('custom-sidebar')) : ?>
-            <aside class="custom-sidebar">
-                <?php dynamic_sidebar('custom-sidebar'); ?>
-            </aside>
-        <?php endif; ?>
+    <aside class="custom-sidebar">
+        <?php dynamic_sidebar('custom-sidebar'); ?>
+    </aside>
+<?php endif; ?>
+
     </section>
 </main>
 
